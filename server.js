@@ -43,7 +43,7 @@ mongoose.Promise = Promise;
 
 // Connect to localhost if not a production environment
 if(process.env.NODE_ENV == 'production'){
-  mongoose.connect('');
+  mongoose.connect('mongodb://heroku_w6gf0pmk:b5dr7a0heneu2tmlv8runfto1t@ds155634.mlab.com:55634/heroku_w6gf0pmk');
 }
 else{
   mongoose.connect("mongodb://localhost/newsScrape", {
