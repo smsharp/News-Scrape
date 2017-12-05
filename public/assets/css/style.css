@@ -1,0 +1,92 @@
+html {
+	font-size: 12px;
+}
+
+li { 
+    margin-bottom: 1%;
+}
+
+p {
+	font-size: 16px;
+	margin-left: 30px;
+	margin-top: 1%;
+}
+
+#bodyinput {
+    width: 50%;
+}
+
+.navbar {
+    background-color: #3f3e3c;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
+    color: #efece8;
+}
+
+.navbar-default .navbar-brand:hover,.navbar-default .navbar-nav>li>a:hover {
+    color: #f8f7f6;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background-color: #e0e0de;
+    color: #3f3e3c;
+}
+
+.jumbotron {
+    margin-top: -23px;
+	overflow: hidden;
+    background-position: center;
+    background-image: url('../images/newspaper.png');
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+}
+
+.panel-heading.row {
+	width: 100%;
+    margin-left: 0%;
+}
+
+.panel-primary {
+    height: 130px;
+}
+
+.panel-title {
+    font-size: 19px;
+    margin-top: 7px;
+}
+
+.panel-primary>.panel-heading {
+    color: #fff;
+    background-color: #7a7267;
+    border-color: #7a7267;
+}
+
+.panel {
+    border: 1px #7a7267 solid;
+}
+
+#savenote {
+    display: block;
+    background-color: #3882cd;
+    color: #fff;
+}
+
+.btn-default {
+    background-color: #3882cd;
+    border-color: #3882cd;
+    color: #efece8;
+}
+
+.btn-danger {
+    padding: 1px 4px;
+}
+
+/* 
+  These rules take effect when the browser's width
+  is 640px or less.
+*/
+@media screen and (max-width: 640px) {
+	
+}
